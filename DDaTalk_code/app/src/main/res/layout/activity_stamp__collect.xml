@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButtonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/CollectionExit"
+        android:src="@drawable/x_mark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diamondwheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="@string/diamondwheelmap"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/silverwheelmap"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/silverwheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="@string/silverwheelmap"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stonewheelmap"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/goldwheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="@string/goldwheelmap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tirewheelmap"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/tirewheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="@string/tirewheelmap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/woodwheelmap"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/stonewheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/stonewheelmap"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/woodwheelmap"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/woodwheelmap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="45dp"/>
+
+</android.support.constraint.ConstraintLayout>

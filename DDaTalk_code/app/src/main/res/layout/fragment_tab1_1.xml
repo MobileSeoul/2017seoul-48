@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/notice" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="기본안전유의사항"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="1.머리를 보호하기 위하여 반드시 헬멧을 착용합니다 \n\n\n2.밝은 색상의 옷을 입는 것이 안전합니다 \n\n\n3.자전거 정비가 제대로 되었는가를 항상 확인합니다 \n\n\n4.타기 전에 브레이크를 점검합니다 \n\n\n5.바퀴가 안전하게 고정되었는지 체크합니다" />
+
+
+
+</LinearLayout>
+

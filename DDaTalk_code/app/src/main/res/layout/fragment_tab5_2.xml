@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab5"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tire_chain" />
+
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="체인"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="체인이 빠졌을 경우\n\n1.자전거 핸들 부분에 있는 변속레버를 2단에 맞춰줍니다 \n\n2.레버를 살짝 돌려 2단과 3단 사이에 걸쳐줍니다 \n\n3.그상태에서 페달을 밟아 2~3바퀴를 돌려줍니다" />
+</LinearLayout>

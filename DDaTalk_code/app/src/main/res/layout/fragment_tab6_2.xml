@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab6">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/saddle" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="적절한 안장 높이"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="남성의 경우 \n\n한쪽발로 페달을 밟고 오른쪽 발의 반정도가 땅에 닿을 정도 \n\n\n\n여성의 경우 \n\n편안한 자세로 안장에 앉아 양쪽발의 반정도가 땅을 밟을 수 \n있을 정도" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/accident" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="대처행동"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="1.자전거와 자전거(자동차 등) \n\n차 대 차 사고로 사람이 다치지 않고 물피만 있을시 \n경찰 사건처리 불필요, 당사자끼리 합의하고 보험사등에 연락(합의 안될시 경찰에 신고)" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="2.자전거와 사람 \n\nㄱ.상대방이 다쳤을 경우 즉시 구호조치 및 119와 112에 신고 \n\nㄴ.사고현장을 사고발생 상태로 보존 \n\nㄷ.사고목격자 확보(연락처와 이름 등)" />
+
+
+</LinearLayout>

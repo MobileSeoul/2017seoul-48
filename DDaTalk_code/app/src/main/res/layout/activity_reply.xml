@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFa9a9a9" />
+    <TextView
+        android:id="@+id/textViewRental_Spot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/reply_rental_spot"
+        tools:ignore="RtlHardcoded" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFa9a9a9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <com.tubb.smrv.SwipeMenuListView
+                    android:id="@+id/reply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="InefficientWeight,NestedScrolling" />
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.9">
+
+            <EditText
+                android:id="@+id/editTextReply"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_reply"
+                android:inputType="textPersonName"
+                android:layout_weight="0.9"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonWriteReply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@drawable/enter" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--tools:ignore="UseCompoundDrawables,UselessParent">-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/imageView"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:contentDescription="@string/picture"-->
+    <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+<!--<TextView-->
+    <!--android:id="@+id/textViewEmail"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="@string/id"-->
+    <!--android:textSize="20sp"-->
+    <!--tools:ignore="NestedWeights" />-->
+
+<!--</LinearLayout>-->
+<!--<View-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="1dp"-->
+<!--android:background="#FF000000"/>-->
+
+<!--<TextView-->
+<!--android:id="@+id/textViewContent"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="170dp"-->
+<!--android:text="@string/content"-->
+<!--android:textSize="20sp" />-->
+<!--<View-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="1dp"-->
+<!--android:background="#FF000000"/>-->

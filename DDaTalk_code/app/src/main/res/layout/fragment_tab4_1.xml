@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab4">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/break_handle" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="브레이크 및 핸들 점검"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="1. 자전거의 바퀴가 단단하게 부착됐는지 확인합니다 자전거는 바퀴를 고정할 때 퀵릴리즈라는 레버를 사용하는데 레버가 풀어지면 바퀴가 빠질 수 있습니다 앞바퀴와 뒷바퀴 모두 확인해야 합니다\n\n\n  2.\nㄱ.브레이크를 잡아보고 잘 잡히는 지 확인합니다 \n\nㄴ.브레이크를 잡아보고 제대로 브레이크 케이블이 고정돼 있는지 확인합니다  \n\nㄷ.브레이크 레버를 당겼을 때 레버를 완전히 당겨야만 브레이크가 잡히면 안됩니다 절반 정도만 잡아당겨도 브레이크가 잡히는 정도가 되어야 합니다 \n\nㄹ.브레이크 패드가 닳지 않았는지 확인합니다 브레이크 패드가 타이어에 닿으면 안됩니다" />
+
+
+</LinearLayout>

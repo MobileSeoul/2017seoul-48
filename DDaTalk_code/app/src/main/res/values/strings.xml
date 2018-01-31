@@ -1,0 +1,112 @@
+<resources>
+    <string name="username">이름</string>
+    <string name="username_enter">이름을 입력하세요.</string>
+    <string name="password">비밀번호</string>
+    <string name="password_enter">비밀번호를 입력하세요.</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="password_check_enter">비밀번호를 다시 한 번 입력하세요.</string>
+    <string name="email">이메일</string>
+    <string name="email_enter">abc@naver.com 이메일을 입력하세요.</string>
+    <string name="birth">생일(YYYY-MM-DD)</string>
+    <string name="birth_enter">YYYY-MM-DD</string>
+
+
+    <string name="app_name">따릉이톡</string>
+    <string name="tab_name1">홈</string>
+    <string name="tab_name2">스탬프 콜렉터</string>
+    <string name="tab_name3">글쓰기</string>
+    <string name="tab_name4">따릉이 119</string>
+    <string name="tab_name5">마이 페이지</string>
+    <string name="hint">지역 찾기.</string>
+    <string name="id">아이디</string>
+    <string name="content">내용</string>
+    <string name="digit">숫자</string>
+    <string name="picture">사진</string>
+    <string name="together">함께타요</string>
+    <string name="comment">댓글</string>
+    <string name="search">찾기</string>
+    <string name="bell">알람</string>
+    <string name="title_activity_login">로그인</string>
+    <string name="textview">TextView</string>
+    <string name="add_reply">댓글달기</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="logo">로고</string>
+    <string name="imageEmail">로그인이메일</string>
+    <string name="imageKey">로그인비밀번호</string>
+
+
+    <!--여기서부터 병합 : 호욱-->
+
+    <string name="plz_gu">구를 선택하세요</string>
+
+    <string name="write_title">글쓰기</string>
+    <string name="warning">목적에 맞지 않는 글은 임의로 삭제될 수 있습니다.</string>
+
+    <string name="rental_spot">대여소</string>
+
+    <string name="guTitle">지역구</string>
+    <string name="spotTitle">대여소명</string>
+
+    <string name="requestSelect">함께타요 장소선택</string>
+
+
+    <!--홍근-->
+
+    <string name="region_search">지역찾기</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="profile_example">sim2873</string>
+    <string name="profile_name">profile_name</string>
+    <string name="profile_edit">profile_edit</string>
+    <string name="birthday">생일</string>
+    <string name="name">이름</string>
+    <string name="logout">logout</string>
+    <string name="userdelete">userdelete</string>
+    <string name="addwriting">addwriting</string>
+    <string name="with">with</string>
+
+    <!--희범-->
+
+    <string name="title_activity_menu5_1">Menu5_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_menu4_1">Menu4_1</string>
+    <string name="title_activity_tab_menu">TabMenu</string>
+    <string name="title_activity_tab_menu1">tab_menu1</string>
+    <string name="title_activity_tab_menu3">tab_menu3</string>
+    <string name="title_activity_menu44">menu44</string>
+    <string name="title_activity_menu6_1">menu6_1</string>
+    <string name="title_activity_menu55">menu55</string>
+    <string name="tab6contents"><u>높이조절방법</u></string>
+    <string name="second"><u>둘째</u></string>
+    <string name="third">셋째</string>
+
+    <!--영현-->
+    <string name="wheel">바퀴</string>
+    <string name="levelname">레벨명</string>
+    <string name="levelbar">레벨바</string>
+    <string name="woodwheelmap">나무레벨</string>
+    <string name="stonewheelmap">스톤레벨</string>
+    <string name="tirewheelmap">타이어레벨</string>
+    <string name="silverwheelmap">실버레벨</string>
+    <string name="goldwheelmap">골드레벨</string>
+    <string name="diamondwheelmap">다야레벨</string>
+
+
+    <string name="update_writing_menu">수정</string>
+    <string name="writing_delete_menu">삭제</string>
+    <string name="reply_time">작성시간</string>
+    <string name="reply_rental_spot">대여소장소</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="title_activity_tab4">Tab4</string>
+    <string name="title_activity_tab5">Tab5</string>
+    <string name="title_activity_tab6">Tab6</string>
+    <string name="alarm_textView">알림판</string>
+    <string name="together_item_rental_spot">장소</string>
+    <string name="together_item_writingtime">작성시간</string>
+    <string name="CollectionExit">TODO</string>
+
+
+</resources>

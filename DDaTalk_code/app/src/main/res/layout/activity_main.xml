@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:ignore="RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="40dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imageEmail"
+                android:maxHeight="30dp"
+                app:srcCompat="@drawable/email" />
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/email_enter"
+                android:gravity="right"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagePass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imageKey"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                app:srcCompat="@drawable/key" />
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/password_enter"
+                android:gravity="right"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageBlank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imageKey"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp" />
+
+            <EditText
+                android:id="@+id/editTextPasswordCheck"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/password_check_enter"
+                android:gravity="right"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imageKey"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                app:srcCompat="@drawable/name" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/username_enter"
+                android:gravity="right"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageBirth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imageKey"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                app:srcCompat="@drawable/birth" />
+
+            <EditText
+                android:id="@+id/editTextBirth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:gravity="right"
+                android:hint="@string/birth"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/sign_up_button" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

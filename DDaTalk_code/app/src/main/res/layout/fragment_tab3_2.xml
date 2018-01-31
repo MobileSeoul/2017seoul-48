@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab3">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/lost_damage" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="따릉이 서비스 이용약관"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="3.회원이 서울특별시에서 제공되는 따릉이 이용 중 따릉이의 \n결함으로 인하여 사고를 당하였을 경우 서울시에서 가입한\n‘영조물 손해배상 보험’약관에 의하여 배상을 받을 수 있으며,\n 따릉이의 결함이 아니나 따릉이 이용 중에 발생하는 사고에 \n대하여는 ‘공공자전거 보험’ 약관에 의하여 배상을 받을 수 있습니다" />
+
+
+</LinearLayout>

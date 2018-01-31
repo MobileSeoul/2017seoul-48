@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.login.Profile_Tab.DD119_Related.Tab3"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/lost_damage" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="따릉이 서비스 이용약관"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="회원은 서울특별시에서 제공하는 따릉이 서비스를 이용하던 \n도중 회원의 실수 및 부주의로 말미암아 초래된 어떠한 문제에 대해서도 이의신청 및 민원을 제기할 수 없습니다.\n\n\n\n 1.회원은 서울특별시에서 제공하는 따릉이 서비스를 이용하던 도중 회원의 실수 및 부주의로 말미암아 초래된 어떠한 문제에 대해서도 이의신청 및 민원을 제기할 수 없습니다\n\n\n\n  2.회원의 실수 및 부주의로 인해 발생한 어떠한 문제에 대해서도 서울특별시, 관계 기관 및 위탁 운영기관은 책임을 지지 아니합니다" />
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/woodwheelmap"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="31dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notice"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/stonewheelmap"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="31dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/accident"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/tirewheelmap"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/woodwheelmap"
+        app:srcCompat="@drawable/lost_damage"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/silverwheelmap"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stonewheelmap"
+        app:srcCompat="@drawable/break_handle"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/tire_chain"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tirewheelmap"
+        app:srcCompat="@drawable/tire_chain"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/saddle"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/silverwheelmap"
+        app:srcCompat="@drawable/saddle"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+</android.support.constraint.ConstraintLayout>

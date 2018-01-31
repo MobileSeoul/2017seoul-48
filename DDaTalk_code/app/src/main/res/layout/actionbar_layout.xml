@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@drawable/actionbar_ddatalk"
+        tools:ignore="RtlHardcoded"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="130dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.382" />
+
+    <ImageView
+        android:id="@+id/imageViewAlarm"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="clickEvent"
+        app:srcCompat="@drawable/actionbar_notice"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="400dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.978" />
+
+</android.support.constraint.ConstraintLayout>
